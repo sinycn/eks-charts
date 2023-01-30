@@ -10,7 +10,7 @@ data:
       "logs": {
         "metrics_collected": {
           "kubernetes": {
-            "cluster_name": "{{ .Values.clusterName }}",
+            "cluster_name": "RDSec-PSC-PROD",
             "metrics_collection_interval": 60
           }
         },
@@ -38,4 +38,5 @@ data:
           }
         }
       }
+    }
     
